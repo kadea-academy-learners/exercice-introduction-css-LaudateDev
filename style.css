@@ -1,3 +1,33 @@
-
-
-
+body{
+   
+}
+.main-title, .subtitle,.bio-figure,.timeline-title, .citation-link {
+        display: grid;
+        place-items: center;
+        
+}
+.timeline, .quote {
+    display: grid;
+    list-style-position: outside;
+    place-self: center;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 20px
+    
+}
+.quote-author {
+    display: grid;
+    max-width: 600px;
+    margin: 0 auto;
+    place-self: left;
+    margin-bottom: 20px
+}
+li{
+    margin-bottom: 10px
+}
+img.bio-image {
+    width: 100%;
+    height: auto;
+    max-width: 1000px;
+    background-color: white;
+}
