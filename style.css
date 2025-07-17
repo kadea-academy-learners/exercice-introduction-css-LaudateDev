@@ -1,3 +1,47 @@
+body{
+   background-color:#eeeeee;
+   border: 20px solid white;
+   align-items: center;
+    
+}
+.main-title, .subtitle,.bio-figure,.timeline-title, .citation-link {
+    display: grid;
+    place-items: center;
+        
+}
+img.bio-image {
+    width: 50%;
+    margin-left: 0%;
+    padding: 5px;
+    line-height: 50%;
+    margin-bottom: 30px;
+    background-color: white;
+}
+.image-caption{
+    margin-bottom: 30px;
+    background-color: white;
+}
+.timeline, .quote {
+    display: grid;
+    list-style-position: outside;
+    place-self: center;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 20px
+    
+}
+.quote-author {
+    display: grid;
+    max-width: 600px;
+    margin: 0 auto;
+    place-self: left;
+    margin-bottom: 20px
+}
+li{
+    margin-bottom: 10px
+}
 
-
-
+.bio-figure {
+    background-color: white;
+    margin-bottom: 40px;
+}
