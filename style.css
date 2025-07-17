@@ -1,10 +1,27 @@
 body{
-   
+   background-color:#eeeeee;
+   border: 20px solid white;
+   align-items: center;
+    
 }
 .main-title, .subtitle,.bio-figure,.timeline-title, .citation-link {
-        display: grid;
-        place-items: center;
+    display: grid;
+    place-items: center;
         
+}
+img.bio-image {
+    width: 50%;
+    /*height: auto;
+    max-width: 1000px;*/
+    margin-left: 0%;
+    padding: 5px;
+    line-height: 50%;
+    margin-bottom: 30px;
+    background-color: white;
+}
+.image-caption{
+    margin-bottom: 30px;
+    background-color: white;
 }
 .timeline, .quote {
     display: grid;
@@ -25,9 +42,8 @@ body{
 li{
     margin-bottom: 10px
 }
-img.bio-image {
-    width: 100%;
-    height: auto;
-    max-width: 1000px;
+
+.bio-figure {
     background-color: white;
+    margin-bottom: 40px;
 }
